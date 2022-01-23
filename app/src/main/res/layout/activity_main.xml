@@ -89,14 +89,16 @@
         android:background="@drawable/bg_text"
         android:inputType="textPassword"/>
 
-    <androidx.appcompat.widget.AppCompatButton
+    <com.google.android.material.button.MaterialButton
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@id/forget_password"
         android:backgroundTint="@color/purple_200"
         android:id="@+id/button"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
         android:layout_marginHorizontal="20dp"
-        android:background="@drawable/bg_text"
+        app:cornerRadius="5dp"
         android:layout_marginBottom="20dp"
         android:text="Войти"
         android:textColor="@color/white"
